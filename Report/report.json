@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4921710558,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setUP()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Enter the education form",
+        "description": "",
+        "id": "admin-login;enter-the-education-form",
+        "after": [
+          {
+            "result": {
+              "duration": 141131336,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.end()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9731818,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.endTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 343636923,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the name a Primary_School",
+            "match": {
+              "location": "Steps.i_enter_the_name_a_Primary_School()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88411342,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the name a Secondary_School",
+            "match": {
+              "location": "Steps.i_enter_the_name_a_Secondary_School()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90969920,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the name a Intermediate",
+            "match": {
+              "location": "Steps.i_enter_the_name_a_Intermediate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 80043384,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the name a Engineering",
+            "match": {
+              "location": "Steps.i_enter_the_name_a_Engineering()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101265146,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the name a University",
+            "match": {
+              "location": "Steps.i_enter_the_name_a_University()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4234829058,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter the intermediate_Percentage",
+            "match": {
+              "location": "Steps.i_enter_the_intermediate_Percentage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72315187,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on gender",
+            "match": {
+              "location": "Steps.i_click_on_gender()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Admin Login",
+    "description": "",
+    "id": "admin-login",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Login.feature"
+  }
+]
